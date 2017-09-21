@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{f66ea0bf-b45e-47ef-9305-ac96c88f11d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DogRepository">
+      <UniqueIdentifier>{e1bd0a02-f15a-4cb3-b8ef-4082d2b61e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DogController">
+      <UniqueIdentifier>{8772e032-9967-4e99-a19f-8ff2a4cd9671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{8742f957-1d90-425e-b279-9e4c3b728bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{8eb3422c-97a1-4426-b1e6-2e316925afc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File IO">
+      <UniqueIdentifier>{6145ee40-5e2d-4143-86a2-1d583cbe3974}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dog.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="DogRepository.h">
+      <Filter>DogRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="DogRepositoryController.h">
+      <Filter>DogController</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVFile.h">
+      <Filter>File IO</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>File IO</Filter>
+    </ClInclude>
+    <ClInclude Include="HTMLFile.h">
+      <Filter>File IO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dog.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DogRepository.cpp">
+      <Filter>DogRepository</Filter>
+    </ClCompile>
+    <ClCompile Include="DogRepositoryController.cpp">
+      <Filter>DogController</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVFile.cpp">
+      <Filter>File IO</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>File IO</Filter>
+    </ClCompile>
+    <ClCompile Include="HTMLFile.cpp">
+      <Filter>File IO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dogs.dog" />
+  </ItemGroup>
+</Project>

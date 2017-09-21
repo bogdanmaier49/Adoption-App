@@ -1,0 +1,5 @@
+﻿  HTMLFile.cpp
+e:\projects\dogapp\dogapp\dogapp\htmlfile.cpp(8): warning C4018: '<': signed/unsigned mismatch
+e:\projects\dogapp\dogapp\dogapp\htmlfile.cpp(68): warning C4018: '<': signed/unsigned mismatch
+  DogApp.vcxproj -> E:\Projects\DogApp\DogApp\Debug\DogApp.exe
+  DogApp.vcxproj -> E:\Projects\DogApp\DogApp\Debug\DogApp.pdb (Partial PDB)
